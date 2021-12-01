@@ -21,6 +21,9 @@ import reactRouterRedux from '../../Assets/Cert/reactRouterRedux.png';
 import scopeJS from '../../Assets/Cert/scopeJS.png';
 import storageAWS from '../../Assets/Cert/storageAWS.png';
 import v8JS from '../../Assets/Cert/v8JS.png';
+import apiPost from '../../Assets/Cert/apiPost.png';
+import apiAuth from '../../Assets/Cert/apiAuth.png';
+import introBack from '../../Assets/Cert/introBack.png';
 
 function Certs() {
   return (
@@ -70,8 +73,8 @@ function Certs() {
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={fundamentoJS}
-              title='Fundamentos de JavaScript'
-              description='Fundamentos de JS'
+              title='Fundamentos de NodeJS'
+              description='Fundamentos de Node'
             />
           </Col>
           <Col md={4} className='project-card'>
@@ -125,6 +128,13 @@ function Certs() {
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
+              imgPath={introBack}
+              title='Introducción Backend'
+              description='Conceptos generales del backend'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
               imgPath={go}
               title='Golang'
               description='Primer vistaso a Golang'
@@ -139,13 +149,6 @@ function Certs() {
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
-              imgPath={apiNode}
-              title='Api en express'
-              description='Creación de API con express'
-            />
-          </Col>
-          <Col md={4} className='project-card'>
-            <CertCard
               imgPath={reactRouterRedux}
               title='React Router/Redux'
               description='Routeo con React'
@@ -156,6 +159,27 @@ function Certs() {
               imgPath={reactHook}
               title='React Hook'
               description='Manejo de los Hook en React'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={apiNode}
+              title='Api en express'
+              description='Creación de API con express'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={apiPost}
+              title='Express con Postgress'
+              description='ORM con Sequelize guardando los datos en Postgres'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={apiAuth}
+              title='Autentificación con PassportJS y JWT'
+              description='Capa de seguridad en la api para la gestion de usuarios'
             />
           </Col>
         </Row>
