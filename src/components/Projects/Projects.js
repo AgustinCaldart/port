@@ -22,7 +22,7 @@ function Projects() {
               imgPath={api}
               isBlog={false}
               title='Api Rest Sequelize'
-              description='Ejemplo de Api. Base de datos docker/postgres creado con ORM Sequelize y gestion de usuario con Passport.Js y JWT'
+              description='Ejemplo de Api. Base de datos docker/postgres creado con ORM Sequelize y gestion de usuario con Passport.Js y JWT. Ya esta configurado para el deploy en heroku'
               link='https://github.com/AgustinCaldart/apiNode'
             />
           </Col>
