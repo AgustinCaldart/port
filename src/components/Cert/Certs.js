@@ -24,6 +24,7 @@ import v8JS from '../../Assets/Cert/v8JS.png';
 import apiPost from '../../Assets/Cert/apiPost.png';
 import apiAuth from '../../Assets/Cert/apiAuth.png';
 import introBack from '../../Assets/Cert/introBack.png';
+import mongoWebSocket from '../../Assets/Cert/mongoWebSocket.png';
 
 function Certs() {
   return (
@@ -180,6 +181,13 @@ function Certs() {
               imgPath={apiAuth}
               title='Autentificación con PassportJS y JWT'
               description='Capa de seguridad en la api para la gestion de usuarios'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={mongoWebSocket}
+              title='Mongo y Web Socket'
+              description='Api de mensajes en tiempo real gracias a WebSocket y envio de archivo con multer'
             />
           </Col>
         </Row>
