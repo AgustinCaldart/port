@@ -25,6 +25,7 @@ import apiPost from '../../Assets/Cert/apiPost.png';
 import apiAuth from '../../Assets/Cert/apiAuth.png';
 import introBack from '../../Assets/Cert/introBack.png';
 import mongoWebSocket from '../../Assets/Cert/mongoWebSocket.png';
+import backNest from '../../Assets/Cert/backNest.png';
 
 function Certs() {
   return (
@@ -188,6 +189,13 @@ function Certs() {
               imgPath={mongoWebSocket}
               title='Mongo y Web Socket'
               description='Api de mensajes en tiempo real gracias a WebSocket y envio de archivo con multer'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={backNest}
+              title='Backend con Nest'
+              description='Manejo de Api para comercio, Controladores,servicios,DTO y validacion de parámetros con class-validator'
             />
           </Col>
         </Row>
