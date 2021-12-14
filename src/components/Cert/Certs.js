@@ -26,6 +26,7 @@ import apiAuth from '../../Assets/Cert/apiAuth.png';
 import introBack from '../../Assets/Cert/introBack.png';
 import mongoWebSocket from '../../Assets/Cert/mongoWebSocket.png';
 import backNest from '../../Assets/Cert/backNest.png';
+import nestModular from '../../Assets/Cert/nestModular.png';
 
 function Certs() {
   return (
@@ -196,6 +197,13 @@ function Certs() {
               imgPath={backNest}
               title='Backend con Nest'
               description='Manejo de Api para comercio, Controladores,servicios,DTO y validacion de parámetros con class-validator'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={nestModular}
+              title='Programación modular en Nest'
+              description='Continuacion de la API, Inyeccion de dependencia, documentación con Swagger y Deploy en Heroku'
             />
           </Col>
         </Row>

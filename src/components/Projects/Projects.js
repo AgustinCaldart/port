@@ -19,13 +19,13 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
-            {/*             <ProjectCard
+            <ProjectCard
               imgPath={api}
               isBlog={false}
               title='Api NestJS'
-              description='Ejemplo de Api para Ecomerce. Base de datos docker/postgres creado con ORM Sequelize y gestion de usuario con Passport.Js y JWT. Ya esta configurado para el deploy en heroku'
-              link='https://github.com/AgustinCaldart/apiNode'
-            /> */}
+              description='Esqueleto APi comercio en NestJS, Documentacion en "/docs" con swagger y deploy en Heroku '
+              link='https://github.com/AgustinCaldart/nest-store'
+            />
           </Col>
           <Col md={4} className='project-card'>
             <ProjectCard
