@@ -37,7 +37,7 @@ function Resume() {
               content={[
                 'Soporte de software encargado de gestion tributaria y financiera.',
                 'Capacitacion de usuarios/personal.',
-                'Backend trabajado con Yii2 [Libreria PHP].',
+                'Backend trabajado con Yii2 [Libreria PHP] y NodeJS.',
                 'Frontend HTML,Bootstrap y Javascript.',
               ]}
             />
