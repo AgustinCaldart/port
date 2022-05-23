@@ -27,6 +27,9 @@ import introBack from '../../Assets/Cert/introBack.png';
 import mongoWebSocket from '../../Assets/Cert/mongoWebSocket.png';
 import backNest from '../../Assets/Cert/backNest.png';
 import nestModular from '../../Assets/Cert/nestModular.png';
+import goRest from '../../Assets/Cert/goRest.png';
+import grpc from '../../Assets/Cert/grpc.png';
+import cqrs from '../../Assets/Cert/cqrs.png';
 
 function Certs() {
   return (
@@ -204,6 +207,27 @@ function Certs() {
               imgPath={nestModular}
               title='Programación modular en Nest'
               description='Continuacion de la API, Inyeccion de dependencia, documentación con Swagger y Deploy en Heroku'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={goRest}
+              title='Apirest y Websocket con GO'
+              description='API REST con GO utilizando las operaciones CRUD. Crea un endpoint para traer información de usuarios autenticados e integracion con websocket'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={grpc}
+              title='Protobuffers y gRPC'
+              description='Microservicios de alto rendimiento'
+            />
+          </Col>
+          <Col md={4} className='project-card'>
+            <CertCard
+              imgPath={cqrs}
+              title='Arquitectura de Eventos y CQRS'
+              description='Microservicios utilizando Arquitectura de Eventos con CQRS indexados Elasticsearch'
             />
           </Col>
         </Row>
