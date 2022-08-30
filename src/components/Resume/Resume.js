@@ -22,12 +22,22 @@ function Resume() {
           <Col md={6} className='resume-left'>
             <h3 className='resume-title'>Experiencia</h3>
             <Resumecontent
-              title='Calidad de Datos y gestión masiva de deuda [Municipalidad de Córdoba]'
+              title='Backend Dev [Chattigo]'
+              date='Junio 2022 - Presente'
+              content={[
+                'Microservicios con Go y Spring Boot.',
+                'Creación/mantención de SP en AzureSQL.',
+                'Arquitectura de eventos con Kafka.',
+              ]}
+            />
+            <br />
+            <Resumecontent
+              title='Analista de Datos [Municipalidad de Córdoba]'
               date='Julio 2021 - Presente'
               content={[
-                'Analisis de datos para campañas politicas',
-                'Manejo de datos con PostgreSQL.',
-                'Analisis de datos con Acl analityc y PowerBi ',
+                'PostgreSQL: DDL y DML - Stored Procedures, Triggers , Vistas, y Funciones.',
+                'Análisis de datos para agregar valor a la empresa.',
+                'Limpieza y manejo de datos con las librerías de Python: Pandas y Numpy. ',
               ]}
             />
             <br />
@@ -39,6 +49,7 @@ function Resume() {
                 'Capacitacion de usuarios/personal.',
                 'Backend trabajado con Yii2 [Libreria PHP] y NodeJS.',
                 'Frontend HTML,Bootstrap y Javascript.',
+                'Ciclo de vida de los buckets de Amazon S3.',
               ]}
             />
           </Col>
