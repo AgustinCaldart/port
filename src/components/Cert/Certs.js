@@ -45,189 +45,190 @@ function Certs() {
             <CertCard
               imgPath={prework}
               title='PreWork'
-              description='Configuración WSL2'
+              description='WSL2 configuration'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={v8JS}
               title='V8 JS'
-              description='Historia y lógica del motor v8'
+              description='History and logic of the V8 engine'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={basicoJS}
-              title='Básico JS'
-              description='Conceptos básicos de JS'
+              title='Basic JS'
+              description='Basic concepts of JS'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={ecmaJS}
               title='EcmaScript 6+'
-              description='Historia de ecma y cambios en el tiempo'
+              description='History of Ecma and changes over time'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={asincronismoJs}
-              title='Asincronismo JavaScript'
-              description='Manejo de asincronismo con Callback,Promise y Async-Await'
+              title='JavaScript Asynchronism'
+              description='Handling asynchronism with Callback, Promise, and Async-Await'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={fundamentoJS}
-              title='Fundamentos de NodeJS'
-              description='Fundamentos de Node'
+              title='NodeJS Fundamentals'
+              description='Fundamentals of NodeJS'
             />
           </Col>
+
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={scopeJS}
-              title='Scope JavaScript'
-              description='Scope/Hoisting/Clousure'
+              title='JavaScript Scope'
+              description='Scope/Hoisting/Closure'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={arrayJs}
-              title='Array en JavaScript'
-              description='Manejo de array en Javascript'
+              title='Arrays in JavaScript'
+              description='Handling arrays in JavaScript'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={npm}
               title='NPM'
-              description='Manejo y conceptos de NPM'
+              description='Managing and concepts of NPM'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={db}
-              title='Fundamentos base de datos'
-              description='Fundamentos de las base de datos relacionadas y no relacionadas (MySQL/Firebase)'
+              title='Database Fundamentals'
+              description='Fundamentals of related and non-related databases (MySQL/Firebase)'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={cloudAWS}
-              title='Cloud Aws'
-              description='Conceptos de programación en la nube'
+              title='Cloud AWS'
+              description='Cloud programming concepts'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={cloudComputingAWS}
-              title='Computing Aws'
-              description='Diferentes formas para hostear una aplicación en AWS'
+              title='Computing AWS'
+              description='Different ways to host an application on AWS'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={storageAWS}
-              title='Storage AWS'
-              description='Persistencia de datos con buckets'
+              title='AWS Storage'
+              description='Data persistence with buckets'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={introBack}
-              title='Introducción Backend'
-              description='Conceptos generales del backend'
+              title='Backend Introduction'
+              description='General concepts of backend development'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={go}
               title='Golang'
-              description='Primer vistaso a Golang'
+              description='First look at Golang'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={PooGO}
-              title='Poo Golang'
-              description='Programación orientada a objetos con Golang'
+              title='Golang OOP'
+              description='Object-oriented programming with Golang'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={reactRouterRedux}
               title='React Router/Redux'
-              description='Routeo con React'
+              description='Routing with React'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={reactHook}
-              title='React Hook'
-              description='Manejo de los Hook en React'
+              title='React Hooks'
+              description='Handling Hooks in React'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={apiNode}
-              title='Api en express'
-              description='Creación de API con express'
+              title='Express API'
+              description='Creating an API with Express'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={apiPost}
-              title='Express con Postgress'
-              description='ORM con Sequelize guardando los datos en Postgres'
+              title='Express with Postgres'
+              description='ORM with Sequelize, storing data in Postgres'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={apiAuth}
-              title='Autentificación con PassportJS y JWT'
-              description='Capa de seguridad en la api para la gestion de usuarios'
+              title='Authentication with PassportJS and JWT'
+              description='Security layer for user management in the API'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={mongoWebSocket}
-              title='Mongo y Web Socket'
-              description='Api de mensajes en tiempo real gracias a WebSocket y envio de archivo con multer'
+              title='MongoDB and Web Socket'
+              description='Real-time messaging API using WebSocket and file uploading with Multer'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={backNest}
-              title='Backend con Nest'
-              description='Manejo de Api para comercio, Controladores,servicios,DTO y validacion de parámetros con class-validator'
+              title='Backend with Nest'
+              description='API handling for commerce, controllers, services, DTOs, and parameter validation with class-validator'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={nestModular}
-              title='Programación modular en Nest'
-              description='Continuacion de la API, Inyeccion de dependencia, documentación con Swagger y Deploy en Heroku'
+              title='Modular Programming in Nest'
+              description='Continuation of the API, dependency injection, documentation with Swagger, and deployment on Heroku'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={goRest}
-              title='Apirest y Websocket con GO'
-              description='API REST con GO utilizando las operaciones CRUD. Crea un endpoint para traer información de usuarios autenticados e integracion con websocket'
+              title='REST API and Websocket with GO'
+              description='REST API with GO utilizing CRUD operations. Creates an endpoint to fetch information of authenticated users and integration with WebSocket'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={grpc}
-              title='Protobuffers y gRPC'
-              description='Microservicios de alto rendimiento'
+              title='Protobuffers and gRPC'
+              description='High-performance microservices'
             />
           </Col>
           <Col md={4} className='project-card'>
             <CertCard
               imgPath={cqrs}
-              title='Arquitectura de Eventos y CQRS'
-              description='Microservicios utilizando Arquitectura de Eventos con CQRS indexados Elasticsearch'
+              title='Event Architecture and CQRS'
+              description='Microservices using Event Architecture with CQRS indexed in Elasticsearch'
             />
           </Col>
         </Row>

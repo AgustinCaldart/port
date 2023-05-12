@@ -8,27 +8,27 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos, Me llamo <span className="purple">Agustín Caldart </span>
-            Soy de <span className="purple"> San carlos de Bariloche, Argentina.</span>
-            <br />Soy un desarrolador con conocimientos en datos.
+            Hello everyone, my name is <span className="purple">Agustín Caldart</span>.
+            I'm from <span className="purple">San Carlos de Bariloche, Argentina</span>.
+            <br />I'm a developer with a focus on data.
             <br />
             <br />
-            Aparte de escribir código, me encantar hacer!
+            Besides writing code, I love to do many other things!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Jugar juegos
+              <ImPointRight /> Play
             </li>
             <li className="about-activity">
-              <ImPointRight /> Leer
+              <ImPointRight /> Read
             </li>
             <li className="about-activity">
-              <ImPointRight /> Salir con amigos
+              <ImPointRight /> Meet with friends
             </li>
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Las motivaciones de los hombres nunca tienen sentido. Y, sin embargo, lo tienen siempre"{" "}
+            "The Motivations of men. They never make sense and they always make sense"{" "}
           </p>
           <footer className="blockquote-footer">Brandon Sanderson</footer>
         </blockquote>

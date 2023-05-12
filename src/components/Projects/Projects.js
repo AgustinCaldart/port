@@ -13,10 +13,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className='project-heading'>
-          Mis <strong className='purple'>Proyectos </strong>
+          My <strong className='purple'>Projects </strong>
         </h1>
         <p style={{ color: 'white' }}>
-          Aca se encuentran proyectos en los que estuve trabajando
+        Here are some projects I have been working on:
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
@@ -24,7 +24,7 @@ function Projects() {
               imgPath={go}
               isBlog={false}
               title='ApiRest Golang'
-              description='Simple APIREST con conexion a websockets y postgresql'
+              description='Simple REST API with connection to websockets and postgresql'
               link='https://github.com/acaldo/rest-websockets'
             />
           </Col>
@@ -41,7 +41,7 @@ function Projects() {
               imgPath={go}
               isBlog={false}
               title='CQRS y Arquitectura de eventos'
-              description='Arquitecturas de eventos utilizando CQRS indexados con ElasticSearch'
+              description='Event architectures using CQRS indexed with ElasticSearch'
               link='https://github.com/acaldo/go-cqrs'
             />
           </Col>
@@ -50,7 +50,7 @@ function Projects() {
               imgPath={api}
               isBlog={false}
               title='Api NestJS'
-              description='Esqueleto APi comercio en NestJS, Documentacion en "/docs" con swagger y deploy en Heroku '
+              description='APi skeleton trade in NestJS, Documentation in "/docs" with swagger and deploy in Heroku '
               link='https://github.com/acaldo/nest-store'
             />
           </Col>
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={api}
               isBlog={false}
               title='Api Rest Sequelize'
-              description='Ejemplo de Api para Ecomerce. Base de datos docker/postgres creado con ORM Sequelize y gestion de usuario con Passport.Js y JWT. Ya esta configurado para el deploy en heroku'
+              description='Api Example for Ecommerce. Database docker/postgres created with ORM Sequelize and user management with Passport.Js and JWT. It is already configured for the deploy in heroku'
               link='https://github.com/acaldo/apiNode'
             />
           </Col>
@@ -68,7 +68,7 @@ function Projects() {
               imgPath={api}
               isBlog={false}
               title='Api Chat con Websockets'
-              description='Ejemplo de Api para gestión de chat, trabaja con websocket para la visualizacion de los mensaje en tiempo real'
+              description='API example for chat management, works with websocket to display messages in real time'
               link='https://github.com/acaldo/node_mongo_websok'
             />
           </Col>
@@ -77,7 +77,7 @@ function Projects() {
               imgPath={quiz}
               isBlog={false}
               title='Quiz React'
-              description='Simple Quiz de Golang hecho en React'
+              description='Simple Golang Quiz made in React'
               link='https://quiz-one-woad.vercel.app/'
             />
           </Col>

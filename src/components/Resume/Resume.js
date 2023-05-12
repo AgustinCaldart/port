@@ -20,61 +20,59 @@ function Resume() {
         </Row>
         <Row className='resume'>
           <Col md={6} className='resume-left'>
-            <h3 className='resume-title'>Experiencia</h3>
+            <h3 className='resume-title'>Jobs</h3>
             <Resumecontent
               title='Backend Dev [Chattigo]'
-              date='Junio 2022 - Presente'
+              date='June 2022 - March 2023'
               content={[
-                'Microservicios con Go y Spring Boot.',
-                'Creación/mantención de SP en AzureSQL.',
-                'Arquitectura de eventos con Kafka.',
+                'Microservices with Go.',
+                'Creation/maintenance of stored procedures in Azure SQL.',
+                'Event-driven architecture with Kafka.',
               ]}
             />
             <br />
             <Resumecontent
-              title='Analista de Datos [Municipalidad de Córdoba]'
-              date='Julio 2021 - Presente'
+              title='Data Analyst [Municipality of Córdoba]'
+              date='July 2021 - Present'
               content={[
-                'PostgreSQL: DDL y DML - Stored Procedures, Triggers , Vistas, y Funciones.',
-                'Análisis de datos para agregar valor a la empresa.',
-                'Limpieza y manejo de datos con las librerías de Python: Pandas y Numpy. ',
+                'PostgreSQL: DDL and DML - Stored Procedures, Triggers, Views, and Functions.',
+                'Data analysis to add value to the organization.',
+                'Data cleaning and manipulation using Python libraries: Pandas and Numpy.',
               ]}
             />
             <br />
             <Resumecontent
-              title='Desarrolador|Analista [AARI]'
-              date='Octubre 2019 - Julio 2021'
+              title='Developer|Analyst [AARI]'
+              date='October 2019 - July 2021'
               content={[
-                'Soporte de software encargado de gestion tributaria y financiera.',
-                'Capacitacion de usuarios/personal.',
-                'Backend trabajado con Yii2 [Libreria PHP] y NodeJS.',
-                'Frontend HTML,Bootstrap y Javascript.',
-                'Ciclo de vida de los buckets de Amazon S3.',
+                'Software support for tax and financial management.',
+                'User/staff training.',
+                'Backend development using Yii2 [PHP framework] and NodeJS.',
+                'Frontend development using HTML, Bootstrap, and Javascript.',
+                'Lifecycle management of Amazon S3 buckets.',
               ]}
             />
           </Col>
           <Col md={6} className='resume-right'>
-            <h3 className='resume-title'>Educación</h3>
+            <h3 className='resume-title'>Education</h3>
             <Resumecontent
               title='Udemy'
-              date='2021 - Presente'
-              content={['Cursos certificados en Udemy de React y Go']}
+              date='2021 - Present'
+              content={['Certified courses on React and Go from Udemy']}
             />
             <br />
             <Resumecontent
               title='Platzi'
-              date='2020 - Presente'
-              content={[
-                'Cursos certificados en Platzi, mayormente orientados a Aws,Mern Stack y Go',
-              ]}
+              date='2020 - Present'
+              content={['Certified courses on Aws, Mern Stack, and Go from Platzi']}
             />
             <br />
             <Resumecontent
-              title='Tecnicatura en programación [UTN-FRC]'
+              title='Technical Degree in Programming [UTN-FRC]'
               date='2018 - 2020'
               content={[
-                'Carrera corta en la Universidad Técnologica Nacional sede Córdoba Capital.',
-                'En la carrera mayormente se ve bases de datos relacionadas (SQL Server), Asp.Net y Java.',
+                'Short-term program at the National Technological University, Córdoba branch.',
+                'The curriculum focused mainly on related databases (SQL Server), Asp.Net, and Java.',
               ]}
             />
           </Col>
@@ -82,7 +80,7 @@ function Resume() {
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <Button variant='primary' href={pdf} target='_blank'>
             <AiOutlineDownload />
-            &nbsp;Descargar Cv
+            &nbsp;Download Cv
           </Button>
         </Row>
       </Container>

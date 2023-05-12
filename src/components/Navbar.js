@@ -65,7 +65,7 @@ function NavBar() {
                 to='/about'
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> Sobre mí
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> About me
               </Nav.Link>
             </Nav.Item>
 
@@ -78,7 +78,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: '2px' }}
                 />{' '}
-                Proyectos
+                Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +88,7 @@ function NavBar() {
                 to='/resume'
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: '2px' }} /> Resumen
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Jobs
               </Nav.Link>
             </Nav.Item>
 
@@ -99,7 +99,7 @@ function NavBar() {
                   to='/cert'
                   onClick={() => updateExpanded(false)}
                 >
-                  <ImBlog style={{ marginBottom: '2px' }} /> Certificados
+                  <ImBlog style={{ marginBottom: '2px' }} /> Certs
                 </Nav.Link>
               </Nav.Item>
             }
