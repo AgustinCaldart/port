@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Resumecontent from './ResumeContent';
 
-import pdf from '../../Assets/CaldartCV.pdf';
+import pdf from '../../Assets/AgustinCaldartCv.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
 
 function Resume() {
@@ -13,7 +13,7 @@ function Resume() {
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <Button variant='primary' href={pdf} target='_blank'>
             <AiOutlineDownload />
-            &nbsp;Descargar CV
+            &nbsp;CV
           </Button>
         </Row>
         <Row className='resume'>
