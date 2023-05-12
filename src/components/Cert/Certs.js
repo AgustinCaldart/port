@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import CertCard from './CertCard';
-import Particle from '../Particle';
 
 import apiNode from '../../Assets/Cert/apiNodeJS.png';
 import arrayJs from '../../Assets/Cert/arrayJs.png';
@@ -34,7 +33,7 @@ import cqrs from '../../Assets/Cert/cqrs.png';
 function Certs() {
   return (
     <Container fluid className='project-section'>
-      <Particle />
+
       <Container>
         <h1 className='project-heading'>
           Mis <strong className='purple'>Certificados </strong>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
-import Particle from '../Particle';
 
 import api from '../../Assets/Projects/api.png';
 import quiz from '../../Assets/Projects/quiz.jpg';
@@ -10,7 +9,6 @@ import go from '../../Assets/Projects/go.png'
 function Projects() {
   return (
     <Container fluid className='project-section'>
-      <Particle />
       <Container>
         <h1 className='project-heading'>
           My <strong className='purple'>Projects </strong>
